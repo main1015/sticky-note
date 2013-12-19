@@ -1,0 +1,60 @@
+.gridly {
+    position: relative;
+    width: 960px;
+}
+.brick.small {
+    width: 140px;
+    height: 140px;
+    cursor: move;
+}
+.brick.large {
+    width: 300px;
+    height: 300px;
+    cursor: move;
+}
+.brick .delete {
+    display: block;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    width: 40px;
+    height: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.button {
+    display: block;
+    padding: 20px;
+    width: 200px;
+    color: white;
+    background: #888888;
+    margin: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.brick:nth-child(20n + 1) {background: #1abc9c;}
+.brick:nth-child(20n + 2) {background: #16a085;}
+.brick:nth-child(20n + 3) {background: #2ecc71; }
+.brick:nth-child(20n + 4) {background: #27ae60; }
+.brick:nth-child(20n + 5) {background: #3498db; }
+.brick:nth-child(20n + 6) {background: #2980b9; }
+.brick:nth-child(20n + 7) {background: #9b59b6; }
+.brick:nth-child(20n + 8) {background: #8e44ad; }
+.brick:nth-child(20n + 9) {background: #34495e; }
+.brick:nth-child(20n + 10) {background: #2c3e50; }
+.brick:nth-child(20n + 11) {background: #f1c40f; }
+.brick:nth-child(20n + 12) {background: #f39c12; }
+.brick:nth-child(20n + 13) {background: #e67e22; }
+.brick:nth-child(20n + 14) {background: #d35400; }
+.brick:nth-child(20n + 15) {background: #e74c3c; }
+.brick:nth-child(20n + 16) {background: #c0392b; }
+.brick:nth-child(20n + 17) {background: #ecf0f1; }
+.brick:nth-child(20n + 18) {background: #bdc3c7; }
+.brick:nth-child(20n + 19) {background: #95a5a6; }
+.brick:nth-child(20n + 20) {background: #7f8c8d; }
